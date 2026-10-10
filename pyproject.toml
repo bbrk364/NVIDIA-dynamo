@@ -61,7 +61,7 @@ trtllm =[
 vllm = [
     "uvloop",
     "nixl[cu13]==1.3.2",
-    "vllm[flashinfer,runai,otel]==0.27.1",
+    "vllm[flashinfer,runai,otel]==0.30.0",
     # vLLM 0.27.1 predates its Transformers 5.15 Gemma 4 compatibility fix.
     # Keep this constraint scoped to ai-dynamo[vllm]; other backends solve
     # their own Transformers requirements.
